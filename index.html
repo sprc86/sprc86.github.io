@@ -20,6 +20,7 @@
 
     header {
       margin-bottom: 40px;
+      text-align: center;
     }
 
     h1 {
@@ -52,6 +53,16 @@
       margin-bottom: 2rem;
     }
 
+    .profile-photo {
+      width: 148px;
+      height: 148px;
+      object-fit: cover;
+      object-position: center top;
+      border-radius: 50%;
+      margin-bottom: 24px;
+      border: 1px solid #ddd;
+    }
+
     ul {
       padding-left: 1.4rem;
     }
@@ -62,6 +73,7 @@
       color: #666;
       border-top: 1px solid #ddd;
       padding-top: 1rem;
+      text-align: center;
     }
   </style>
 
@@ -69,20 +81,26 @@
 
 <body>
   <header>
-    <h1>Rodrigo de Campos</h1>
-    <p class="subtitle">DevOps / Linux / SRE / Infrastructure</p>
+    <img class="profile-photo" src="assets/images/rdc.jpg" alt="Rodrigo de Campos">
+
+
+<h1>Rodrigo de Campos</h1>
+<p class="subtitle">DevOps / Linux / SRE / Infrastructure</p>
+
+
   </header>
 
   <main>
-    <section class="section">
+    <section id="about" class="section">
       <h2>About</h2>
-      <p>
-        I am an infrastructure and DevOps professional focused on Linux systems,
-        automation, networking, observability, cloud environments and reliable
-        service operations.
-      </p>
 
-```
+
+  <p>
+    I am an infrastructure and DevOps professional focused on Linux systems,
+    automation, networking, observability, cloud environments and reliable
+    service operations.
+  </p>
+
   <p>
     My work is centered around building, maintaining and troubleshooting
     technical environments with clarity, discipline and a strong understanding
@@ -90,8 +108,9 @@
   </p>
 </section>
 
-<section class="section">
+<section id="skills" class="section">
   <h2>Core Skills</h2>
+
   <ul>
     <li>Linux system administration</li>
     <li>DevOps and infrastructure automation</li>
@@ -108,17 +127,20 @@
   </ul>
 </section>
 
-<section class="section">
+<section id="certifications" class="section">
   <h2>Certifications</h2>
+
   <ul>
-    <li>LPIC-2: Linux Engineer</li>
-    <li>LPIC-1: Linux Administrator</li>
-    <li>CompTIA Network+</li>
+    <li>LPIC-2: Linux Engineer — <a href="https://cs.lpi.org/caf/Xamman/certification/verify/LPI000189969/xfram867fl" target="_blank" rel="noopener noreferrer">Verify credential</a></li>
+    <li>LPIC-1: Linux Administrator — <a href="https://cs.lpi.org/caf/Xamman/certification/verify/LPI000189969/xfram867fl" target="_blank" rel="noopener noreferrer">Verify credential</a></li>
+    <li>EF SET English Certificate — C2 Proficient — <a href="https://cert.efset.org/en/R8xj2A" target="_blank" rel="noopener noreferrer">Verify credential</a></li>
+    <li>CompTIA Network+ (expired)</li>
   </ul>
 </section>
 
-<section class="section">
+<section id="education" class="section">
   <h2>Education</h2>
+
   <ul>
     <li>Technology Degree in Computer Networking</li>
     <li>Postgraduate Specialization in Information Security</li>
@@ -126,8 +148,9 @@
   </ul>
 </section>
 
-<section class="section">
+<section id="projects" class="section">
   <h2>Projects and Labs</h2>
+
   <p>
     This section will be used to document infrastructure labs, automation
     examples, monitoring setups, Linux hardening notes and other technical
@@ -143,24 +166,31 @@
   </ul>
 </section>
 
-<section class="section">
+<section id="contact" class="section">
   <h2>Contact</h2>
-    <p>
+
+  <p>
     CV:
-    <a href="assets/cv/Rodrigo_de_Campos.pdf">Download PDF</a>
+    <a href="assets/cv/Rodrigo_de_Campos.pdf" target="_blank" rel="noopener noreferrer">
+      Download PDF
+    </a>
   </p>
-  
+
   <p>
     GitHub:
-    <a href="https://github.com/sprc86">github.com/sprc86</a>
+    <a href="https://github.com/sprc86" target="_blank" rel="noopener noreferrer">
+      github.com/sprc86
+    </a>
   </p>
 
   <p>
     LinkedIn:
-    <a href="https://www.linkedin.com/in/sprc86/">linkedin.com/in/sprc86</a>
+    <a href="https://www.linkedin.com/in/sprc86/" target="_blank" rel="noopener noreferrer">
+      linkedin.com/in/sprc86
+    </a>
   </p>
 </section>
-```
+
 
   </main>
 
